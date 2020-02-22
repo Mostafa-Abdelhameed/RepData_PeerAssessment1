@@ -4,11 +4,9 @@ date: "2/22/2020"
 output: html_document
 ---
 
-
 ```{r setup, include = FALSE, cache = FALSE}
 knitr::opts_chunk$set(error = TRUE)
 ```
-
 
 ##  Reading the data set
 ```{r , echo=TRUE}
