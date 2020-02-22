@@ -32,7 +32,7 @@ Activity_Data <- read.csv(path)
 
 ```{r , echo=TRUE}
 
-hist(Steps_Day$steps, xlab="Total Number of Steps per day", ylab="Number of Days", main="Total Number of Steps taken each day")
+display(hist(Steps_Day$steps, xlab="Total Number of Steps per day", ylab="Number of Days", main="Total Number of Steps taken each day"))
 ``` 
 # Mean and median number of steps taken each day
 
